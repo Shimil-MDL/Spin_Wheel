@@ -1,6 +1,6 @@
 <template>
     <div class="popUp">
-      <div> ⁙ </div>
+      <div> ✖ </div>
       <h1>Hello {{ name }}  a.k.a  {{ nickname }}</h1>
       <h2>You have to "{{ dare }}"</h2>
     </div>
@@ -36,6 +36,7 @@ export default {
 }
 .popUp div{
 position: absolute;
+font-size: 2rem;
 right: 2%;
 top: 2%;
 }
