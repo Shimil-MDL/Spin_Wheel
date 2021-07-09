@@ -1,5 +1,6 @@
 <template>
     <div class="popUp">
+      <div> ⁙ </div>
       <h1>Hello {{ name }}  a.k.a  {{ nickname }}</h1>
       <h2>You have to "{{ dare }}"</h2>
     </div>
@@ -32,6 +33,11 @@ export default {
   border-radius: 10px;
   transform: translate(-50%, -50%);
   cursor: pointer;
+}
+.popUp div{
+position: absolute;
+right: 2%;
+top: 2%;
 }
 
 
