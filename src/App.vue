@@ -8,11 +8,6 @@
     >
       <div class="title">{{ card.num }}</div>
       <input type="text" placeholder="Enter the name" v-model="card.name" />
-      <input
-        type="text"
-        placeholder="Enter the nickname"
-        v-model="card.nickname"
-      />
     </div>
   </div>
 
@@ -23,7 +18,6 @@
       <transition name="pop">
         <Popup v-if="value === 0"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -33,7 +27,6 @@
       <transition name="pop">
         <Popup v-if="value === 1"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -43,7 +36,6 @@
       <transition name="pop">
         <Popup v-if="value === 2"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -53,7 +45,6 @@
       <transition name="pop">
         <Popup v-if="value === 3"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -63,7 +54,6 @@
       <transition name="pop">
         <Popup v-if="value === 4"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -73,7 +63,6 @@
       <transition name="pop">
         <Popup v-if="value === 5"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -83,7 +72,6 @@
       <transition name="pop">
         <Popup v-if="value === 6"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -93,7 +81,6 @@
       <transition name="pop">
         <Popup v-if="value === 7"
           :name="cards[value].name"
-          :nickname="cards[value].nickname"
           :dare="cards[value].dare"
           :style="{backgroundColor: cards[value].colorfade}"
           @click="value = -1"
@@ -123,7 +110,6 @@ export default {
           color: "#ff6e40",
           colorfade: "#ff6e40df",
           name: "",
-          nickname: "",
           dare: "Sing a song...",
         },
         {
@@ -131,7 +117,6 @@ export default {
           color: "#3d5afe",
           colorfade: "#3d5afedf",
           name: "",
-          nickname: "",
           dare: "Mimic the person who chose number 56...",
         },
         {
@@ -139,7 +124,6 @@ export default {
           color: "#f06292",
           colorfade: "#f06292df",
           name: "",
-          nickname: "",
           dare: "Dance to a song...",
         },
         {
@@ -147,7 +131,6 @@ export default {
           color: "#fbbf24",
           colorfade: "#fbbf24df",
           name: "",
-          nickname: "",
           dare: "Sing a song...",
         },
         {
@@ -155,7 +138,6 @@ export default {
           color: "#3b82f6",
           colorfade: "#3b82f6df",
           name: "",
-          nickname: "",
           dare: "Mimic the person who chose number 34...",
         },
         {
@@ -163,7 +145,6 @@ export default {
           color: "#ef5350",
           colorfade: "#ef5350df",
           name: "",
-          nickname: "",
           dare: "Sing a song...",
         },
         {
@@ -171,7 +152,6 @@ export default {
           color: "#10b981",
           colorfade: "#10b981df",
           name: "",
-          nickname: "",
           dare: "Sing a song...",
         },
         {
@@ -179,7 +159,6 @@ export default {
           color: "#7e57e2",
           colorfade: "#7e57e2df",
           name: "",
-          nickname: "",
           dare: "Dance to a song...",
         },
       ],
@@ -261,7 +240,7 @@ html {
 }
 .card {
   width: 300px;
-  height: 250px;
+  height: 200px;
   border-radius: 10px;
   padding: 25px 0px 45px 0;
   margin: 10px 20px 20px;

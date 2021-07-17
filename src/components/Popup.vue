@@ -1,15 +1,14 @@
 <template>
     <div class="popUp">
-      <div> ✖ </div>
-      <h1>Hello {{ name }}  a.k.a  {{ nickname }}</h1>
-      <h2>You have to "{{ dare }}"</h2>
+      <h1>Heyy {{ name }}</h1>
+      <h2>Your dare is "{{ dare }}"</h2>
     </div>
 </template>
 
 <script>
 export default {
   name: "Popup",
-  props: ['name','nickname','dare'],
+  props: ['name','dare'],
 };
 </script>
 
@@ -33,12 +32,6 @@ export default {
   border-radius: 10px;
   transform: translate(-50%, -50%);
   cursor: pointer;
-}
-.popUp div{
-position: absolute;
-font-size: 2rem;
-right: 2%;
-top: 2%;
 }
 
 
