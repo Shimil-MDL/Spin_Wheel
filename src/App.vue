@@ -233,6 +233,7 @@ html {
   margin-top: 100px;
 
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
   align-content: space-evenly;
