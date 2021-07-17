@@ -279,7 +279,7 @@ html {
 }
 .btn {
   user-select: none;
-  margin: 100px 0 50px;
+  margin: 50px 0 50px;
   font-size: 20px;
   width: 200px;
   height: 60px;
