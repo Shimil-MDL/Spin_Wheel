@@ -110,14 +110,14 @@ export default {
           color: "#ff6e40",
           colorfade: "#ff6e40df",
           name: "",
-          dare: "Sing a Bharathamennal Paarin",
+          dare: "Sing the song 'Bharathamennal Paarin' ",
         },
         {
           num: 10,
           color: "#3d5afe",
           colorfade: "#3d5afedf",
           name: "",
-          dare: "Imitate Jagathy's Navarasangal",
+          dare: "Imitate any 5 from Jagathy's Navarasangal",
         },
         {
           num: 99,
@@ -138,7 +138,7 @@ export default {
           color: "#3b82f6",
           colorfade: "#3b82f6df",
           name: "",
-          dare: "Jayasurya 3 kings dialogue",
+          dare: "to act out Jayasurya's dialogue from 3 kings",
         },
         {
           num: 34,
@@ -152,7 +152,7 @@ export default {
           color: "#10b981",
           colorfade: "#10b981df",
           name: "",
-          dare: "Another dialogue",
+          dare: "to act out Dileep's dialogue from pandipada",
         },
         {
           num: 13,
